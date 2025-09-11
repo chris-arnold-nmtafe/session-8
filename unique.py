@@ -4,8 +4,8 @@ while True:
     if (name==""):
         break
     elif name in names:
-        #names[name]=names[name]+1
-        raise KeyError("Already got that one!")
+        names[name]=names[name]+1
+        #raise KeyError("Already got that one!")
     else:
         names[name]=1
 
